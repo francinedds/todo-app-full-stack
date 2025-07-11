@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  min-height: 100vh;
+  background-color: #1e1e1e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.card {
+  width: 100%;
+  max-width: 400px;
+  background-color: white;
+  box-shadow: 0 4px 6px rgb(0 0 0 / 0.1);
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+}
+
+.title {
+  font-size: 1.4rem;
+  color: #1e1e1e;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.input-group {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.input {
+  flex: 1;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #d1d5db; 
+  border-radius: 0.375rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.8rem;
+  outline: none;
+  transition: box-shadow 0.2s ease;
+}
+
+.input:focus {
+  border-color: #00a69a;
+}
+
+.button {
+  padding: 0.5rem 1rem;
+  background-color: #00a69a; 
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-weight: 500;
+  border: none;
+  border-radius: 0.375rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.button:hover {
+  background-color: #15908e; 
+}
+
+.task-list {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  padding: 0.5rem 1rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #1e1e1e;
+  background-color: #f9fafb; 
+  border-radius: 0.375rem;
+}
+
+.delete-button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: #e53e3e; 
+}
