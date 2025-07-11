@@ -67,6 +67,3 @@ Depois, abra http://localhost:3000 no navegador para usar a aplicação.
 
 ### Contribuição
 Esse projeto é principalmente para aprendizado, mas contribuições são sempre bem-vindas! Abra uma issue ou envie um pull request.
-
-### Licença
-Projeto licenciado sob MIT License.
