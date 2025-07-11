@@ -39,13 +39,6 @@ cd backend
 npm install
 ```
 
-### Crie o arquivo de variáveis de ambiente no backend (exemplo)
-```bash
-echo "PORT=5000
-DATABASE_URL=mongodb://localhost:27017/todoapp
-JWT_SECRET=sua_chave_secreta" > .env
-```
-
 ### Rode o backend
 ```bash
 npm start
